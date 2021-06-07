@@ -47,7 +47,6 @@
 
 /* Start Nav */
 
-
 .nav {
   min-height: 70px;
   position: absolute;
@@ -72,9 +71,17 @@
   left: 15px;
   bottom: -1px;
 }
+.nav .container::after
 
 .nav .logo img {
   width: 118px;
+}
+
+@media (max-width: 990px) {
+  .nav .logo img {
+    width: 66px !important;
+    padding-top: 8px;
+  }
 }
 
 .nav ul {
