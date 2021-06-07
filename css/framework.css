@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*==========================*/
+:root {
+    --f-blue: #0d6efd;
+    --f-indigo: #6610f2;
+    --f-purple: #6f42c1;
+    --f-pink: #d63384;
+    --f-red: #dc3545;
+    --f-orange: #fd7e14;
+    --f-yellow: #ffc107;
+    --f-green: #198754;
+    --f-teal: #20c997;
+    --f-cyan: #0dcaf0;
+    --f-white: #fff;
+    --f-gray: #6c757d;
+    --f-gray-dark: #343a40;
+    --f-primary: #0d6efd;
+    --f-secondary: #6c757d;
+    --f-success: #198754;
+    --f-info: #0dcaf0;
+    --f-warning: #ffc107;
+    --f-danger: #dc3545;
+    --f-light: #f8f9fa;
+    --f-dark: #212529;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.text-center { 
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================*/
+/*==============MEDIAS============*/
+/*===============================*/
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
